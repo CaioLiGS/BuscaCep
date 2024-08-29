@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(8,0,142,1) 0%, rgba(0,63,231,1) 50%, rgba(0,212,255,1) 100%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+input{
+    border-style: hidden;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button{
+    padding: 10px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    box-shadow: 1px 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+.Input{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    width: 15%;
+}
+
+.Input > h2{
+    color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Dados{
+    align-self: center;
+    background-color: rgb(105, 195, 255);
+    width: 15%;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+}
